@@ -271,3 +271,51 @@ nav a:hover {
 .about-text h3 {
     color: #333;
 }
+/* Mobile Styles */
+@media (max-width: 768px) {
+    /* Navbar */
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navbar h1 {
+        font-size: 1.5em;
+    }
+
+    .navbar nav a {
+        display: block;
+        padding: 10px 0;
+        font-size: 1em;
+    }
+
+    /* Carousel */
+    .carousel-inner img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Main Content */
+    .main-content {
+        padding: 10px;
+        font-size: 1em;
+    }
+
+    /* Footer */
+    .footer {
+        padding: 10px;
+        font-size: 0.9em;
+    }
+}
+
+/* Extra Small Devices (e.g., very small screens) */
+@media (max-width: 480px) {
+    /* You can reduce font sizes further for very small devices */
+    .navbar h1 {
+        font-size: 1.2em;
+    }
+
+    .navbar nav a {
+        font-size: 0.9em;
+    }
+}
